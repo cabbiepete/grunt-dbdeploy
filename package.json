@@ -1,0 +1,42 @@
+{
+  "name": "grunt-dbdeploy",
+  "description": "Grunt plugin implmenting sql db migration following methodology of DbDeploy (http://dbdeploy.com/) but in pure SQL/JS.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cabbiepete/grunt-dbdeploy",
+  "author": {
+    "name": "Peter Simmons",
+    "email": "cabbiepete@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cabbiepete/grunt-dbdeploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cabbiepete/grunt-dbdeploy/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cabbiepete/grunt-dbdeploy/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
