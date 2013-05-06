@@ -1,6 +1,10 @@
 # grunt-dbdeploy
 
-> Grunt plugin implmenting sql db migration following methodology of DbDeploy (http://dbdeploy.com/) but in pure SQL/JS.
+> A Grunt plugin implmenting sql db change management (aka migration). It  uses the methodology of DbDeploy (http://dbdeploy.com/) but in pure SQL/JS. See README-dbdeploy.md
+
+## Differences to the java version
+
+This plugin can execute the scripts if you configure the task to do so using the ###TBA### option.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
